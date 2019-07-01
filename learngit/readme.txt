@@ -8,7 +8,6 @@ cd projectname 定位到项目文件夹
 git init    在当前路径下创建并初始化Git 仓库，存放该项目的所有数据
 必须先将git add到暂存区，才能git commit到版本库中去
 git add filename  提交新增/修改的文件到暂存区
-git add . 先移动到对应文件夹的目录中去，然后添加该文件夹下的所有文件到暂存区
 git commit -m "explanation about what you add"  将刚添加/修改的文件从暂存区提交到分支库，并且清空暂存区
 git status   查看仓库当前状态，如文件被修改等
 git diff  显示文件修改的具体内容
