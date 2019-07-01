@@ -1,0 +1,36 @@
+debug
+info
+warning
+error
+critical
+2019-06-28 23:28:36,131-DEBUG-logging_learning.py-Arlen
+2019-06-28 23:28:36,131-INFO-logging_learning.py-Arlen
+2019-06-28 23:28:36,131-WARNING-logging_learning.py-Arlen
+2019-06-28 23:28:36,131-ERROR-logging_learning.py-Arlen
+2019-06-28 23:28:36,132-CRITICAL-logging_learning.py-Arlen
+2019-06-28 23:30:36,691-DEBUG-logging_learning.py-Arlen-日志信息:debug
+2019-06-28 23:30:36,697-INFO-logging_learning.py-Arlen-日志信息:info
+2019-06-28 23:30:36,698-WARNING-logging_learning.py-Arlen-日志信息:warning
+2019-06-28 23:30:36,698-ERROR-logging_learning.py-Arlen-日志信息:error
+2019-06-28 23:30:36,698-CRITICAL-logging_learning.py-Arlen-日志信息:critical
+2019-06-28 23:30:52,700-DEBUG-logging_learning.py-Arlen:debug
+2019-06-28 23:30:52,700-INFO-logging_learning.py-Arlen:info
+2019-06-28 23:30:52,700-WARNING-logging_learning.py-Arlen:warning
+2019-06-28 23:30:52,700-ERROR-logging_learning.py-Arlen:error
+2019-06-28 23:30:52,700-CRITICAL-logging_learning.py-Arlen:critical
+2019-06-28 23:31:10,280 - DEBUG - logging_learning.py - Arlen: debug
+2019-06-28 23:31:10,280 - INFO - logging_learning.py - Arlen: info
+2019-06-28 23:31:10,280 - WARNING - logging_learning.py - Arlen: warning
+2019-06-28 23:31:10,281 - ERROR - logging_learning.py - Arlen: error
+2019-06-28 23:31:10,283 - CRITICAL - logging_learning.py - Arlen: critical
+2019-06-28 23:50:13,284 - DEBUG - logging_learning.py - Arlen: debug
+2019-06-28 23:56:49,841 - DEBUG - logging_learning.py - Arlen: debug
+2019-06-28 23:56:49,842 - INFO - logging_learning.py - Arlen: info
+2019-06-28 23:56:49,843 - WARNING - logging_learning.py - Arlen: warning
+2019-06-28 23:56:49,844 - ERROR - logging_learning.py - Arlen: error
+2019-06-28 23:56:49,845 - CRITICAL - logging_learning.py - Arlen: critical
+2019-06-28 23:58:23,792 - DEBUG - logging_learning.py - Arlen: debug
+2019-06-28 23:58:23,793 - INFO - logging_learning.py - Arlen: info
+2019-06-28 23:58:23,794 - WARNING - logging_learning.py - Arlen: warning
+2019-06-28 23:58:23,794 - ERROR - logging_learning.py - Arlen: error
+2019-06-28 23:58:23,795 - CRITICAL - logging_learning.py - Arlen: critical

@@ -1,0 +1,43 @@
+test_add_two_negative (unittest_learning.TestAdd) ... FAIL
+test_add_two_positive (unittest_learning.TestAdd) ... FAIL
+test_add_two_zero (unittest_learning.TestAdd) ... ok
+test_sub_two_negative (unittest_learning.TestSub) ... FAIL
+test_sub_two_positive (unittest_learning.TestSub) ... FAIL
+test_sub_two_zero (unittest_learning.TestSub) ... ok
+
+======================================================================
+FAIL: test_add_two_negative (unittest_learning.TestAdd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\python\autotest\unittest_learning.py", line 34, in test_add_two_negative
+    self.assertEqual(0,res)
+AssertionError: 0 != -5
+
+======================================================================
+FAIL: test_add_two_positive (unittest_learning.TestAdd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\python\autotest\unittest_learning.py", line 27, in test_add_two_positive
+    self.assertEqual(0,res)
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_sub_two_negative (unittest_learning.TestSub)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\python\autotest\unittest_learning.py", line 66, in test_sub_two_negative
+    self.assertEqual(0,res)
+AssertionError: 0 != 3
+
+======================================================================
+FAIL: test_sub_two_positive (unittest_learning.TestSub)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\python\autotest\unittest_learning.py", line 59, in test_sub_two_positive
+    self.assertEqual(0,res)
+AssertionError: 0 != -3
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=4)
