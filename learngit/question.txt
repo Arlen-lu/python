@@ -1,0 +1,15 @@
+master分支添加"Branch test1"
+add + commit 到分支库master
+切换到分支库 dev，添加"branch test2"
+add + commit 到分支库dev
+切换到master
+将dev merge到master分支，
+提示冲突，git status查看冲突信息
+cat readme.txt 显示并标记两分支不同的信息
+修改信息为 “branch test1 and test2”
+重新add readme.txt,
+再上传到git库中 git commit -m "conflict fixed"
+git log --graph --pretty=oneline --abbrev-commit 查看分支合并情况
+
+rebase:?
+国内的Git托管服务——码云（gitee.com）
