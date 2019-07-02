@@ -91,3 +91,12 @@ git push origin :refs/tags/v1.0删除远程的标签
 git show v1.0 查看标签的具体信息
 git tag v1.1  commit_id 针对此次的commit添加tag
 git tag -a v1.2 -m "version 1.2 released" commit_id添加带有说明的标签，-a指定标签名，-m指定说明文字
+
+将本地推送到远程库中去
+git push master  #推送到远程库的master主分支
+git push dev     #推送到远程库的对应分支上
+
+
+Gitee #码云
+git remote add origin_gitee git@gitee.com:Arlen/python.git #git连接到码云的远程库
+git push origin_gitee master
