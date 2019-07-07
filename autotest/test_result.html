@@ -116,8 +116,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Auto_test_0626</h1>
 <p class='attribute'><strong>测试人员 : </strong> Luht</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-06-28 22:37:58</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.343466</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-07-03 14:22:03</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.591574</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 16，通过 8，失败 8，通过率= 50.00%</p>
 
 <p class='description'>接口自动化学习1-0626</p>
@@ -149,7 +149,7 @@ function html_escape(s) {
 </tr>
 
 <tr class='failClass warning'>
-    <td>unittest_learning.TestAdd</td>
+    <td>unittest_testcase.TestAdd</td>
     <td class="text-center">3</td>
     <td class="text-center">1</td>
     <td class="text-center">2</td>
@@ -172,9 +172,9 @@ ft1_1: 测试开始:
 测试错误，错误信息为0 != -5
 测试完成！！
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 54, in test_add_two_negative
+  File "E:\python\autotest\unittest_testcase.py", line 54, in test_add_two_negative
     raise e#抛出错误信息
-  File "E:\python\autotest\unittest_learning.py", line 51, in test_add_two_negative
+  File "E:\python\autotest\unittest_testcase.py", line 51, in test_add_two_negative
     self.assertEqual(0,res)#断言函数调用
 AssertionError: 0 != -5
 
@@ -199,9 +199,9 @@ ft1_2: 测试开始:
 测试错误，错误信息为0 != 5
 测试完成！！
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 42, in test_add_two_positive
+  File "E:\python\autotest\unittest_testcase.py", line 42, in test_add_two_positive
     raise e#抛出错误信息
-  File "E:\python\autotest\unittest_learning.py", line 39, in test_add_two_positive
+  File "E:\python\autotest\unittest_testcase.py", line 39, in test_add_two_positive
     self.assertEqual(0,res)#断言函数调用
 AssertionError: 0 != 5
 
@@ -232,7 +232,7 @@ pt1_3: 测试开始:
 </tr>
 
 <tr class='failClass warning'>
-    <td>unittest_learning.TestSub</td>
+    <td>unittest_testcase.TestSub</td>
     <td class="text-center">3</td>
     <td class="text-center">1</td>
     <td class="text-center">2</td>
@@ -255,9 +255,9 @@ ft2_1: 测试开始:
 测试错误，错误信息为0 != 3
 测试完成！！
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 104, in test_sub_two_negative
+  File "E:\python\autotest\unittest_testcase.py", line 104, in test_sub_two_negative
     raise e#抛出错误信息
-  File "E:\python\autotest\unittest_learning.py", line 101, in test_sub_two_negative
+  File "E:\python\autotest\unittest_testcase.py", line 101, in test_sub_two_negative
     self.assertEqual(0,res)#断言函数调用
 AssertionError: 0 != 3
 
@@ -282,9 +282,9 @@ ft2_2: 测试开始:
 测试错误，错误信息为0 != -3
 测试完成！！
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 91, in test_sub_two_positive
+  File "E:\python\autotest\unittest_testcase.py", line 91, in test_sub_two_positive
     raise e#抛出错误信息
-  File "E:\python\autotest\unittest_learning.py", line 88, in test_sub_two_positive
+  File "E:\python\autotest\unittest_testcase.py", line 88, in test_sub_two_positive
     self.assertEqual(0,res)#断言函数调用
 AssertionError: 0 != -3
 
@@ -315,7 +315,7 @@ pt2_3: 测试开始:
 </tr>
 
 <tr class='failClass warning'>
-    <td>unittest_learning_ddt.Test_Add_ddt</td>
+    <td>unittest_testcase_ddt.Test_Add_ddt</td>
     <td class="text-center">5</td>
     <td class="text-center">3</td>
     <td class="text-center">2</td>
@@ -374,9 +374,9 @@ Test finished!!
 Traceback (most recent call last):
   File "C:\Users\Administrator\Python36\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "E:\python\autotest\unittest_learning_ddt.py", line 46, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase_ddt.py", line 46, in test_add_two_nums
     raise e
-  File "E:\python\autotest\unittest_learning_ddt.py", line 41, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase_ddt.py", line 41, in test_add_two_nums
     self.assertEqual(item['ExpectedResult'],res)
 AssertionError: 4 != 3
 
@@ -437,9 +437,9 @@ Test finished!!
 Traceback (most recent call last):
   File "C:\Users\Administrator\Python36\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "E:\python\autotest\unittest_learning_ddt.py", line 46, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase_ddt.py", line 46, in test_add_two_nums
     raise e
-  File "E:\python\autotest\unittest_learning_ddt.py", line 41, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase_ddt.py", line 41, in test_add_two_nums
     self.assertEqual(item['ExpectedResult'],res)
 AssertionError: 5 != 1
 
@@ -477,7 +477,7 @@ Test finished!!
 </tr>
 
 <tr class='failClass warning'>
-    <td>unittest_learning.Test_Add</td>
+    <td>unittest_testcase.Test_Add</td>
     <td class="text-center">5</td>
     <td class="text-center">3</td>
     <td class="text-center">2</td>
@@ -528,9 +528,9 @@ Test Fail，wrong msg:4 != 3
 finally
 Test finished!!
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 144, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase.py", line 144, in test_add_two_nums
     raise e
-  File "E:\python\autotest\unittest_learning.py", line 139, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase.py", line 139, in test_add_two_nums
     self.assertEqual(self.expected,res)
 AssertionError: 4 != 3
 
@@ -583,9 +583,9 @@ Test Fail，wrong msg:5 != 1
 finally
 Test finished!!
 Traceback (most recent call last):
-  File "E:\python\autotest\unittest_learning.py", line 144, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase.py", line 144, in test_add_two_nums
     raise e
-  File "E:\python\autotest\unittest_learning.py", line 139, in test_add_two_nums
+  File "E:\python\autotest\unittest_testcase.py", line 139, in test_add_two_nums
     self.assertEqual(self.expected,res)
 AssertionError: 5 != 1
 
